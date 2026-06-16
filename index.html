@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Nour Gouja — Full-Stack Developer &amp; Data Scientist</title>
-<meta name="description" content="Nour Gouja — Computer Science graduate (ISAMM) working at the intersection of full-stack software, statistics, and AI, with a focus on health data. Portfolio of projects in ML, Big Data, and web engineering." />
+<title>Nour Gouja — CS Student & Full-Stack Developer</title>
+<meta name="description" content="Nour Gouja — Computer Science student at ISAMM building full-stack applications, ML pipelines, and data-driven solutions. Portfolio of real projects in Python, Java, Spring Boot, and more." />
 <meta name="author" content="Nour Gouja" />
 <meta name="theme-color" content="#080B16" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Nour Gouja — Full-Stack Developer &amp; Data Scientist" />
-<meta property="og:description" content="Building at the intersection of software, data, and health. Projects in ML, Big Data, econometrics, and web engineering." />
+<meta property="og:title" content="Nour Gouja — CS Student & Full-Stack Developer" />
+<meta property="og:description" content="CS student at ISAMM. I build full-stack platforms, ML pipelines, and data studies — and I care about how the work actually runs." />
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23A855F7'/%3E%3Cstop offset='1' stop-color='%233B82F6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='8' fill='url(%23g)'/%3E%3Ctext x='16' y='22' font-family='Poppins,Arial,sans-serif' font-size='15' font-weight='700' fill='white' text-anchor='middle'%3ENG%3C/text%3E%3C/svg%3E" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,13 +27,13 @@
     --border:rgba(255,255,255,.09);
     --border-hi:rgba(255,255,255,.18);
     --grid:rgba(255,255,255,.028);
-    --accent:#60A5FA;
-    --glow-1:rgba(59,130,246,.18);
-    --glow-2:rgba(168,85,247,.14);
+    --accent:#2DD4BF;
+    --glow-1:rgba(20,184,166,.16);
+    --glow-2:rgba(6,182,212,.12);
 
-    --grad-name:linear-gradient(120deg,#A855F7 0%,#6366F1 48%,#3B82F6 100%);
-    --grad-role:linear-gradient(90deg,#F472B6,#A855F7);
-    --grad-btn:linear-gradient(135deg,#6366F1,#3B82F6);
+    --grad-name:linear-gradient(120deg,#10B981 0%,#06B6D4 55%,#6366F1 100%);
+    --grad-role:linear-gradient(90deg,#06B6D4,#2DD4BF);
+    --grad-btn:linear-gradient(135deg,#0D9488,#0891B2);
 
     --nav-h:66px;
     --display:"Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
@@ -51,9 +51,9 @@
     --border:rgba(16,20,30,.10);
     --border-hi:rgba(16,20,30,.22);
     --grid:rgba(16,20,30,.035);
-    --accent:#2563EB;
-    --glow-1:rgba(59,130,246,.10);
-    --glow-2:rgba(168,85,247,.08);
+    --accent:#0D9488;
+    --glow-1:rgba(20,184,166,.10);
+    --glow-2:rgba(6,182,212,.08);
   }
 
   *,*::before,*::after{box-sizing:border-box;}
@@ -66,8 +66,8 @@
   }
   a{color:inherit;text-decoration:none;}
   img{max-width:100%;display:block;}
-  ::selection{background:rgba(99,102,241,.32);color:#fff;}
-  :root[data-theme="light"] ::selection{background:rgba(99,102,241,.2);color:#14171F;}
+  ::selection{background:rgba(20,184,166,.32);color:#fff;}
+  :root[data-theme="light"] ::selection{background:rgba(20,184,166,.2);color:#14171F;}
   :focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:3px;}
 
   .wrap{width:100%;max-width:1140px;margin:0 auto;padding:0 30px;}
@@ -106,7 +106,7 @@
   .nav-cta{color:#fff!important;background:var(--grad-btn);border-radius:10px;padding:9px 18px;font-weight:600;font-size:.9rem;
     display:inline-flex;align-items:center;gap:8px;box-shadow:0 10px 26px -12px var(--glow-1);transition:transform .2s ease, box-shadow .2s ease;}
   .nav-cta::after{display:none;}
-  .nav-cta:hover{transform:translateY(-2px);box-shadow:0 16px 34px -14px rgba(99,102,241,.6);}
+  .nav-cta:hover{transform:translateY(-2px);box-shadow:0 16px 34px -14px rgba(13,148,136,.6);}
   .icon-btn{width:42px;height:42px;border-radius:11px;border:1px solid var(--border);background:var(--surface);
     color:var(--text-2);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.2s;flex:none;}
   .icon-btn:hover{color:var(--text);border-color:var(--border-hi);}
@@ -136,11 +136,12 @@
     letter-spacing:-.025em;margin:0;background:var(--grad-name);-webkit-background-clip:text;background-clip:text;color:transparent;}
   .hero-role{font-family:var(--display);font-weight:600;font-size:clamp(1.25rem,3vw,2rem);color:var(--text);margin:16px 0 0;min-height:1.3em;}
   .hero-role #typed{background:var(--grad-role);-webkit-background-clip:text;background-clip:text;color:transparent;}
-  .cursor{display:inline-block;width:3px;height:1.05em;background:#F472B6;margin-left:3px;vertical-align:-2px;border-radius:2px;animation:blink 1s steps(1) infinite;}
+  .cursor{display:inline-block;width:3px;height:1.05em;background:#2DD4BF;margin-left:3px;vertical-align:-2px;border-radius:2px;animation:blink 1s steps(1) infinite;}
   @keyframes blink{50%{opacity:0;}}
 
   .contact-list{display:flex;flex-direction:column;gap:13px;margin:28px 0 26px;}
-  .contact-list a,.contact-list span{display:inline-flex;align-items:center;gap:13px;color:var(--text-2);font-size:1.02rem;width:max-content;transition:color .2s ease;}
+  .contact-list a,.contact-list span{display:inline-flex;align-items:center;gap:13px;color:var(--text-2);font-size:1.02rem;max-width:100%;transition:color .2s ease;}
+  .contact-email{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;}
   .contact-list a:hover{color:var(--text);}
   .contact-list .ic{width:38px;height:38px;border-radius:10px;display:flex;align-items:center;justify-content:center;
     background:var(--surface);border:1px solid var(--border);color:var(--accent);flex:none;}
@@ -152,15 +153,15 @@
     transition:transform .18s ease, box-shadow .2s ease, background .2s ease, border-color .2s ease;}
   .btn svg{width:17px;height:17px;}
   .btn-primary{background:var(--grad-btn);color:#fff;box-shadow:0 12px 30px -12px var(--glow-1);}
-  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 18px 42px -14px rgba(99,102,241,.6);}
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 18px 42px -14px rgba(13,148,136,.6);}
   .btn-outline{background:transparent;color:var(--text);border-color:var(--border-hi);}
-  .btn-outline:hover{transform:translateY(-2px);border-color:var(--accent);background:rgba(96,165,250,.08);}
+  .btn-outline:hover{transform:translateY(-2px);border-color:var(--accent);background:rgba(45,212,191,.08);}
 
   .socials{display:flex;gap:12px;margin-top:26px;}
   .socials a{width:46px;height:46px;border-radius:12px;display:flex;align-items:center;justify-content:center;
     background:var(--surface);border:1px solid var(--border);color:var(--text-2);transition:.2s;}
   .socials a svg{width:19px;height:19px;}
-  .socials a:hover{color:#fff;border-color:var(--accent);background:rgba(96,165,250,.14);transform:translateY(-2px);}
+  .socials a:hover{color:#fff;border-color:var(--accent);background:rgba(45,212,191,.14);transform:translateY(-2px);}
   :root[data-theme="light"] .socials a:hover{color:#fff;background:var(--accent);}
 
   /* hero visual: photo + orbs */
@@ -171,16 +172,7 @@
   .photo .monogram{font-family:var(--display);font-weight:700;font-size:clamp(3rem,9vw,5rem);
     background:var(--grad-name);-webkit-background-clip:text;background-clip:text;color:transparent;}
   .photo img{width:100%;height:100%;object-fit:cover;}
-  .orb{position:absolute;border-radius:50%;will-change:transform;box-shadow:0 14px 40px -10px rgba(0,0,0,.45);}
-  .orb.blue{width:88px;height:88px;background:#3B82F6;top:1%;left:0%;animation:float 7s ease-in-out infinite;}
-  .orb.green{width:72px;height:72px;background:#22C55E;top:5%;right:-1%;animation:float 6s ease-in-out infinite .6s;}
-  .orb.amber{width:78px;height:78px;background:#F59E0B;bottom:5%;left:-2%;animation:float 6.6s ease-in-out infinite .3s;}
-  .orb.purple{width:98px;height:98px;background:#A855F7;bottom:0%;right:1%;animation:float 7.4s ease-in-out infinite .9s;}
   @keyframes float{0%,100%{transform:translateY(0);}50%{transform:translateY(-16px);}}
-
-  .ring{position:absolute;left:3%;bottom:14%;width:62px;height:62px;border-radius:50%;
-    border:7px solid rgba(96,165,250,.45);display:flex;align-items:center;justify-content:center;animation:float 8s ease-in-out infinite 1.2s;}
-  .ring::after{content:"";width:18px;height:18px;border-radius:50%;background:#3B82F6;}
 
   .scroll-cue{position:absolute;bottom:22px;left:50%;transform:translateX(-50%);color:var(--text-3);animation:bob 1.9s ease-in-out infinite;}
   .scroll-cue svg{width:22px;height:22px;}
@@ -191,14 +183,26 @@
   .section + .section{border-top:1px solid var(--border);}
   .section-head{margin-bottom:48px;max-width:720px;}
 
-  .about-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:64px;align-items:start;}
-  .about-body p{font-size:1.06rem;color:var(--text-2);}
-  .about-body strong{color:var(--text);font-weight:600;}
-  .focus-title{font-family:var(--mono);font-size:.74rem;color:var(--text-3);letter-spacing:.06em;text-transform:uppercase;margin-bottom:16px;}
-  .focus-item{padding:18px 0;border-top:1px solid var(--border);}
-  .focus-item:last-child{border-bottom:1px solid var(--border);}
-  .focus-item h4{font-family:var(--display);font-weight:600;font-size:1.06rem;margin:0 0 5px;color:var(--text);}
-  .focus-item p{margin:0;font-size:.92rem;color:var(--text-2);line-height:1.5;}
+  .about-center{text-align:center;max-width:820px;margin:0 auto 48px;}
+  .about-center p{font-size:1.07rem;color:var(--text-2);line-height:1.75;}
+  .about-center strong{color:var(--text);font-weight:600;}
+  .about-tagline{display:inline-flex;align-items:center;gap:10px;margin-top:28px;
+    background:var(--grad-btn);color:#fff;font-family:var(--body);font-weight:600;font-size:.97rem;
+    padding:13px 26px;border-radius:999px;box-shadow:0 10px 30px -12px var(--glow-1);}
+  .about-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;}
+  .about-card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:28px 26px;}
+  .about-card-head{display:flex;align-items:center;gap:14px;margin-bottom:18px;}
+  .about-card-icon{width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;flex:none;}
+  .about-card-icon svg{width:22px;height:22px;}
+  .about-card-icon.blue{background:linear-gradient(135deg,#0D9488,#06B6D4);}
+  .about-card-icon.purple{background:linear-gradient(135deg,#0891B2,#06B6D4);}
+  .about-card-icon.green{background:linear-gradient(135deg,#22C55E,#16A34A);}
+  .about-card-icon.orange{background:linear-gradient(135deg,#F97316,#EA580C);}
+  .about-card h3{font-family:var(--display);font-weight:600;font-size:1.15rem;margin:0;color:var(--text);}
+  .about-card ul{list-style:none;margin:0;padding:0;display:grid;gap:10px;}
+  .about-card ul li{position:relative;padding-left:18px;color:var(--text-2);font-size:.96rem;line-height:1.55;}
+  .about-card ul li::before{content:"";position:absolute;left:0;top:.62em;width:7px;height:7px;border-radius:50%;background:var(--accent);opacity:.75;}
+  @media (max-width:640px){.about-cards{grid-template-columns:1fr;}}
 
   /* timeline */
   .timeline{border-left:2px solid var(--border);margin-left:6px;}
@@ -228,26 +232,79 @@
   .tags{display:flex;flex-wrap:wrap;gap:7px;}
   .tag{font-family:var(--mono);font-size:.72rem;color:var(--text-2);background:var(--surface-2);border:1px solid var(--border);border-radius:7px;padding:5px 10px;}
 
-  /* skills */
-  .skills-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:34px 56px;}
-  .skill-label{font-family:var(--mono);font-size:.74rem;color:var(--accent);letter-spacing:.04em;text-transform:uppercase;
-    margin-bottom:14px;display:flex;align-items:center;gap:9px;}
-  .skill-label::before{content:"";width:14px;height:2px;border-radius:2px;background:var(--grad-btn);}
-  .chips{display:flex;flex-wrap:wrap;gap:8px;}
-  .chip{font-family:var(--mono);font-size:.82rem;color:var(--text);border:1px solid var(--border);border-radius:9px;
-    padding:7px 13px;background:var(--surface);transition:.2s;}
-  .chip:hover{border-color:var(--accent);color:#fff;background:rgba(96,165,250,.14);transform:translateY(-2px);}
-  :root[data-theme="light"] .chip:hover{color:var(--accent);}
+  /* skills icon grid */
+  .skills-tagline{text-align:center;color:var(--text-2);font-size:1.02rem;margin:-16px 0 36px;}
+  .skill-icons-grid{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;}
+  .skill-icon-card{background:var(--surface);border:1px solid var(--border);border-radius:14px;width:106px;
+    padding:20px 10px 14px;display:flex;flex-direction:column;align-items:center;gap:10px;
+    transition:transform .2s ease, border-color .2s ease, box-shadow .2s ease;cursor:default;}
+  .skill-icon-card:hover{transform:translateY(-4px);border-color:var(--border-hi);box-shadow:0 14px 34px -14px rgba(99,102,241,.45);}
+  .skill-icon-card img{width:48px;height:48px;object-fit:contain;}
+  .skill-icon-card span{font-family:var(--mono);font-size:.72rem;color:var(--text-2);text-align:center;line-height:1.3;}
 
-  /* education + meta */
-  .edu-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-bottom:42px;}
-  .edu{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:24px;}
-  .edu-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:8px;}
-  .edu h4{font-family:var(--display);font-weight:600;font-size:1.1rem;margin:0;line-height:1.3;color:var(--text);}
-  .edu-date{font-family:var(--mono);font-size:.74rem;color:var(--text-3);white-space:nowrap;}
-  .edu-school{color:var(--text-2);font-size:.93rem;margin-bottom:12px;}
-  .pill{display:inline-block;font-family:var(--mono);font-size:.72rem;color:var(--accent);background:rgba(96,165,250,.12);border:1px solid var(--border);border-radius:7px;padding:4px 10px;}
-  .meta-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px 56px;}
+  /* github section */
+  .gh-repos{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:20px;}
+  @media(max-width:760px){.gh-repos{grid-template-columns:1fr;}}
+  .gh-repo{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:22px 20px;display:flex;flex-direction:column;}
+  .gh-repo h4{font-family:var(--display);font-weight:600;font-size:1rem;margin:0 0 8px;color:var(--accent);}
+  .gh-repo p{font-size:.88rem;color:var(--text-2);margin:0 0 auto;line-height:1.55;padding-bottom:16px;}
+  .gh-repo-foot{display:flex;align-items:center;gap:16px;font-family:var(--mono);font-size:.76rem;color:var(--text-3);}
+  .gh-repo-foot span{display:flex;align-items:center;gap:5px;}
+  .gh-lang-dot{width:11px;height:11px;border-radius:50%;flex:none;}
+  .gh-profile{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:20px 24px;
+    display:flex;align-items:center;gap:18px;flex-wrap:wrap;}
+  .gh-avatar{width:52px;height:52px;border-radius:50%;background:var(--grad-btn);
+    display:flex;align-items:center;justify-content:center;font-family:var(--display);font-weight:700;font-size:1.2rem;color:#fff;flex:none;}
+  .gh-info{flex:1;min-width:0;}
+  .gh-info h4{font-family:var(--display);font-weight:600;font-size:1.02rem;margin:0 0 2px;color:var(--text);}
+  .gh-info p{margin:0;font-size:.86rem;color:var(--text-2);}
+  .gh-meta{display:flex;gap:18px;margin-top:8px;font-family:var(--mono);font-size:.76rem;color:var(--text-2);}
+  .gh-meta span{display:flex;align-items:center;gap:5px;}
+  .gh-meta svg{width:13px;height:13px;opacity:.6;}
+  .btn-gh{display:inline-flex;align-items:center;gap:8px;background:var(--grad-btn);color:#fff;font-family:var(--body);font-weight:600;
+    font-size:.88rem;padding:10px 18px;border-radius:10px;white-space:nowrap;transition:transform .2s ease,box-shadow .2s ease;}
+  .btn-gh:hover{transform:translateY(-2px);box-shadow:0 12px 28px -12px rgba(99,102,241,.6);}
+  .btn-gh svg{width:16px;height:16px;}
+
+  /* certifications */
+  .cert-tagline{text-align:center;color:var(--text-2);font-size:1.02rem;margin:-16px 0 36px;}
+  .cert-scroll{display:flex;gap:20px;overflow-x:auto;padding-bottom:8px;
+    scroll-snap-type:x mandatory;scrollbar-width:thin;scrollbar-color:var(--border) transparent;}
+  .cert-scroll::-webkit-scrollbar{height:4px;}
+  .cert-scroll::-webkit-scrollbar-thumb{background:var(--border);border-radius:4px;}
+  .cert-card{background:var(--surface);border:1px solid var(--border);border-radius:14px;
+    min-width:240px;max-width:260px;padding:22px 20px;flex:none;scroll-snap-align:start;
+    display:flex;flex-direction:column;gap:10px;transition:border-color .2s ease,transform .2s ease;}
+  .cert-card:hover{border-color:var(--border-hi);transform:translateY(-3px);}
+  .cert-card-icon{width:42px;height:42px;border-radius:10px;background:var(--grad-btn);
+    display:flex;align-items:center;justify-content:center;flex:none;}
+  .cert-card-icon svg{width:20px;height:20px;color:#fff;}
+  .cert-card h4{font-family:var(--display);font-weight:600;font-size:.96rem;margin:0;color:var(--text);line-height:1.35;}
+  .cert-card .cert-issuer{font-size:.84rem;color:var(--text-2);margin:0;}
+  .cert-card .cert-date{font-family:var(--mono);font-size:.72rem;color:var(--accent);display:inline-block;
+    background:rgba(45,212,191,.1);border:1px solid var(--border);border-radius:6px;padding:3px 9px;width:fit-content;}
+  a.cert-card{text-decoration:none;}
+  a.cert-card:hover{border-color:var(--accent);}
+  .cert-view{font-family:var(--mono);font-size:.72rem;color:var(--accent);margin-top:auto;padding-top:14px;
+    display:inline-flex;align-items:center;gap:5px;opacity:.8;transition:opacity .2s ease;}
+  a.cert-card:hover .cert-view{opacity:1;}
+
+  /* education timeline */
+  .edu-timeline{display:flex;flex-direction:column;}
+  .edu-connector{width:3px;height:36px;background:var(--border);margin-left:23px;}
+  .edu-card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:22px 24px;
+    display:flex;align-items:flex-start;gap:18px;transition:border-color .2s ease;}
+  .edu-card:hover{border-color:var(--border-hi);}
+  .edu-card-icon{width:48px;height:48px;border-radius:12px;background:var(--grad-btn);
+    display:flex;align-items:center;justify-content:center;flex:none;}
+  .edu-card-icon svg{width:23px;height:23px;color:#fff;}
+  .edu-card-body{flex:1;}
+  .edu-card-body h4{font-family:var(--display);font-weight:600;font-size:1.08rem;margin:0 0 3px;color:var(--text);}
+  .edu-card-school{color:var(--accent);font-size:.9rem;margin:0 0 10px;font-weight:500;}
+  .edu-card-meta{display:flex;align-items:center;gap:20px;flex-wrap:wrap;}
+  .edu-card-meta span{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:.76rem;color:var(--text-3);}
+  .edu-card-meta svg{width:13px;height:13px;}
+  .meta-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px 56px;margin-top:40px;}
   .meta-label{font-family:var(--mono);font-size:.74rem;color:var(--text-3);letter-spacing:.04em;text-transform:uppercase;margin-bottom:8px;}
   .meta-row p{margin:0;color:var(--text-2);font-size:.96rem;}
 
@@ -278,7 +335,7 @@
     .hero-grid{grid-template-columns:1fr;gap:46px;}
     .hero-visual{order:-1;max-width:340px;}
     .ring{display:none;}
-    .about-grid{grid-template-columns:1fr;gap:40px;}
+    .about-cards{grid-template-columns:1fr;}
     .proj-grid{grid-template-columns:1fr;}
     .skills-grid{grid-template-columns:1fr;gap:28px;}
     .edu-grid,.meta-grid{grid-template-columns:1fr;}
@@ -319,8 +376,10 @@
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
+        <a href="#github">GitHub</a>
+        <a href="#certifications">Certifications</a>
         <a href="#education">Education</a>
-        <a class="nav-cta" href="#contact">Get in touch <span aria-hidden="true">→</span></a>
+        <a class="nav-cta" href="mailto:goujanour7@gmail.com">Get in touch <span aria-hidden="true">→</span></a>
       </div>
       <button class="icon-btn" id="themeToggle" aria-label="Toggle dark / light theme">
         <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z"/></svg>
@@ -345,9 +404,7 @@
         <p class="hero-role">I'm a <span id="typed"></span><span class="cursor" aria-hidden="true"></span></p>
 
         <div class="contact-list">
-          <!-- Optional: add your phone number here, or delete this line -->
-          <span><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.6A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg></span>+216 — add number</span>
-          <a href="mailto:goujanour7@gmail.com"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 6.5 9 6 9-6"/></svg></span>goujanour7@gmail.com</a>
+          <a href="mailto:goujanour7@gmail.com"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 6.5 9 6 9-6"/></svg></span><span class="contact-email">goujanour7@gmail.com</span></a>
           <span><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10.5c0 5.5-8 11.5-8 11.5s-8-6-8-11.5a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10.5" r="2.7"/></svg></span>Tunis, Tunisia</span>
         </div>
 
@@ -357,7 +414,7 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h6"/></svg>
             View Resume
           </a>
-          <a class="btn btn-outline" href="#contact">
+          <a class="btn btn-outline" href="mailto:goujanour7@gmail.com">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 6.5 9 6 9-6"/></svg>
             Contact Me
           </a>
@@ -368,7 +425,7 @@
           <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">
             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.3-3.2-.1-.3-.6-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17 4.7 18 5 18 5c.7 1.7.2 2.9.1 3.2.8.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5Z"/></svg>
           </a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/nour-gouja-a435b52a5" target="_blank" rel="noopener" aria-label="LinkedIn">
             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.12 20.45H3.55V9h3.57v11.45ZM22.22 0H1.77C.8 0 0 .78 0 1.74v20.52C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.74V1.74C24 .78 23.2 0 22.22 0Z"/></svg>
           </a>
           <a href="mailto:goujanour7@gmail.com" aria-label="Email">
@@ -378,16 +435,8 @@
       </div>
 
       <div class="hero-visual">
-        <div class="orb blue"></div>
-        <div class="orb green"></div>
-        <div class="orb amber"></div>
-        <div class="orb purple"></div>
-        <!-- PHOTO: to use your own picture, replace the line below
-             <span class="monogram">NG</span>
-             with:  <img src="./profile.jpg" alt="Nour Gouja" />
-             and drop a square profile.jpg next to this file. -->
         <div class="photo">
-          <span class="monogram">NG</span>
+          <img src="./profile.jpg" alt="Nour Gouja" />
         </div>
       </div>
     </div>
@@ -400,20 +449,66 @@
 <!-- ============ ABOUT ============ -->
 <section class="section" id="about">
   <div class="wrap">
-    <div class="about-grid">
-      <div class="about-text reveal">
-        <p class="eyebrow">About</p>
-        <h2 class="h2">Full-stack range, <span class="grad-text">data-science depth.</span></h2>
-        <div class="about-body">
-          <p>I hold a <strong>Bachelor's in Computer Science (Multimedia)</strong> from ISAMM, with a dual foundation in full-stack development and data analysis — sharpened through my end-of-studies project at STAR Assurance, Tunisia's leading insurer.</p>
-          <p>Backed by solid grounding in mathematics, statistics, and programming — and early work building predictive models on clinical data — I'm preparing to join the <strong>Engineering Cycle at ISIS</strong>. My goal is to grow expertise at the intersection of technology and health: health data, AI, and digital solutions that help transform how care is delivered.</p>
+    <div class="section-head reveal" style="max-width:100%;text-align:center;">
+      <p class="eyebrow" style="justify-content:center;">About</p>
+      <h2 class="h2">Where logic meets <span class="grad-text">creative thinking.</span></h2>
+    </div>
+    <div class="about-center reveal">
+      <p>I'm <strong>Nour Gouja</strong>, a <strong>Computer Science student</strong> at ISAMM with a focus on building robust, data-driven software systems. My work spans full-stack development, machine learning pipelines, and data analysis — with a strong emphasis on performance, reliability, and real-world usability rather than just functional correctness. I completed my end-of-studies internship at <strong>STAR Assurance</strong>, where I contributed to a production-ready member management system under real operational constraints — an experience that sharpened my approach to engineering in practical, pressure-tested environments. I graduated with <strong>Highest Honors</strong>, though I place more value on the continuous curiosity that drives me to debug complex systems and explore where software engineering and statistics genuinely meet.</p>
+      <span class="about-tagline">✦ Writing code that solves real problems, not just passes tests.</span>
+    </div>
+    <div class="about-cards reveal">
+      <div class="about-card">
+        <div class="about-card-head">
+          <div class="about-card-icon blue">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+          </div>
+          <h3>Who I Am</h3>
         </div>
+        <ul>
+          <li>Naturally drawn to problems that sit at the edge of math and software.</li>
+          <li>I find satisfaction in understanding how things work — and then rebuilding them better.</li>
+          <li>Fueled by strong coffee, curiosity, and a genuine love for learning that doesn't switch off at 5pm.</li>
+        </ul>
       </div>
-      <div class="focus reveal">
-        <p class="focus-title">Research interests</p>
-        <div class="focus-item"><h4>Applied Stochastics &amp; Probability</h4><p>Modeling uncertainty, random processes, and actuarial applications.</p></div>
-        <div class="focus-item"><h4>Statistical Learning &amp; Data Science</h4><p>Data analysis, predictive modeling, and machine learning applied to risk.</p></div>
-        <div class="focus-item"><h4>Algorithms &amp; Optimization</h4><p>Computational complexity and advanced data structures.</p></div>
+      <div class="about-card">
+        <div class="about-card-head">
+          <div class="about-card-icon purple">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>What I Do</h3>
+        </div>
+        <ul>
+          <li>Architect REST APIs and microservices with Spring Boot, Docker, and clean layered design.</li>
+          <li>Turn raw datasets into models and insights using Python, scikit-learn, and statistical testing.</li>
+          <li>Ship interfaces that are actually pleasant to use — not just functional.</li>
+        </ul>
+      </div>
+      <div class="about-card">
+        <div class="about-card-head">
+          <div class="about-card-icon green">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+          </div>
+          <h3>My Goals</h3>
+        </div>
+        <ul>
+          <li>Earn my engineering degree and go deep at the crossroads of AI and health data.</li>
+          <li>Work on systems that have real stakes and real users — not just homework specs.</li>
+          <li>Keep shipping: the gap between knowing and doing only closes through practice.</li>
+        </ul>
+      </div>
+      <div class="about-card">
+        <div class="about-card-head">
+          <div class="about-card-icon orange">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+          </div>
+          <h3>My Philosophy</h3>
+        </div>
+        <ul>
+          <li>Readable and maintainable beats clever every time — future-me will thank present-me.</li>
+          <li>Understand the data before reaching for the algorithm. Statistics is half the solution.</li>
+          <li>Slow is smooth, smooth is fast — rushing architecture always costs more later.</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -424,7 +519,7 @@
   <div class="wrap">
     <div class="section-head reveal">
       <p class="eyebrow">Experience</p>
-      <h2 class="h2">Where I've built and shipped.</h2>
+      <h2 class="h2">Turning theory into <span class="grad-text">production-ready code.</span></h2>
     </div>
     <div class="timeline reveal">
       <div class="t-item">
@@ -432,10 +527,10 @@
         <h3 class="t-role">End-of-Studies Intern (PFE) — Full-Stack Developer</h3>
         <p class="t-org"><em>STAR Assurance</em>, Tunisia</p>
         <ul class="t-list">
-          <li>Built a complete web platform to manage the company's staff association (amicale).</li>
-          <li>Designed and implemented a payment-deadline tracking system with automated daily detection of overdue payments.</li>
-          <li>Developed a treasury dashboard for managing financial flows in an insurance context.</li>
-          <li>Architected a secure microservices system spanning the full member and payment lifecycle, from enrollment to closure.</li>
+          <li>Engineered a member management platform for STAR Assurance's staff association from requirements to deployment.</li>
+          <li>Built deadline-tracking logic that runs daily to surface overdue payments automatically — no manual checking required.</li>
+          <li>Delivered a real-time treasury dashboard giving finance staff clear visibility into cash flows and obligations.</li>
+          <li>Structured the backend as secure microservices, separating enrollment, payment, and reporting into clean, independent concerns.</li>
         </ul>
       </div>
       <div class="t-item">
@@ -443,10 +538,10 @@
         <h3 class="t-role">Initiation Internship</h3>
         <p class="t-org">Professional engineering environment</p>
         <ul class="t-list">
-          <li>Immersed in real-world workplace practices and the day-to-day of an engineering team.</li>
-          <li>Learned project management and tracking methodologies.</li>
-          <li>Built a working understanding of the software development lifecycle and applied technical standards.</li>
-          <li>Got hands-on with the company's development tools and technical stack.</li>
+          <li>Shadowed engineering teams to understand how professional software development actually flows day to day.</li>
+          <li>Learned sprint planning, code review culture, and release discipline from the inside.</li>
+          <li>Navigated a real production tech stack for the first time under genuine delivery pressure.</li>
+          <li>Carried specific, prepared questions into every session — and turned observation into understanding.</li>
         </ul>
       </div>
       <div class="t-item">
@@ -454,9 +549,9 @@
         <h3 class="t-role">Graphic Designer &amp; Communications Lead</h3>
         <p class="t-org"><em>Orenda Junior Entreprise</em>, ISAMM</p>
         <ul class="t-list">
-          <li>Designed visual assets and led digital communications for SME projects, keeping brand identity consistent.</li>
-          <li>Organized professional events and workshops — coordinating cross-functional teams and end-to-end logistics.</li>
-          <li>Owned client relationships end to end: needs-gathering, creative briefs, deliverable presentations, and feedback.</li>
+          <li>Produced visual identities, social campaigns, and event materials for SME clients — keeping brand output consistent across every channel.</li>
+          <li>Coordinated workshops and professional conferences end to end: venue, agenda, speakers, and post-event follow-up.</li>
+          <li>Managed client feedback cycles directly, translating business expectations into actionable creative briefs.</li>
         </ul>
       </div>
     </div>
@@ -468,47 +563,47 @@
   <div class="wrap">
     <div class="section-head reveal">
       <p class="eyebrow">Projects</p>
-      <h2 class="h2">Selected work in <span class="grad-text">ML, data, and systems.</span></h2>
+      <h2 class="h2">Things I built <span class="grad-text">that actually run.</span></h2>
     </div>
     <div class="proj-grid stagger reveal">
 
       <article class="proj">
         <div class="proj-top">
           <span class="proj-idx">P-01</span>
-          <svg class="proj-glyph" viewBox="0 0 40 40" fill="none" stroke="#60A5FA" stroke-width="2" aria-hidden="true">
+          <svg class="proj-glyph" viewBox="0 0 40 40" fill="none" stroke="#2DD4BF" stroke-width="2" aria-hidden="true">
             <path d="M5 34 C14 34 14 8 20 8 S26 34 35 34" stroke-linecap="round"/>
             <line x1="5" y1="34" x2="35" y2="34" stroke="currentColor" opacity=".3"/>
           </svg>
         </div>
-        <h3>Regression Model in Production</h3>
-        <p>Deployed a linear regression model on clinical diabetes-progression data through a fully containerized microservices architecture — an end-to-end ML pipeline built to industry deployment standards.</p>
-        <div class="tags"><span class="tag">Python</span><span class="tag">scikit-learn</span><span class="tag">Docker</span><span class="tag">ML Pipeline</span></div>
+        <h3>Diabetes Progression · ML in Production</h3>
+        <p>Trained a linear regression model on clinical data and shipped it through a containerized microservices stack. The goal was a production-grade pipeline — Docker, REST API, the works — not a notebook that only runs locally.</p>
+        <div class="tags"><span class="tag">Python</span><span class="tag">scikit-learn</span><span class="tag">Docker</span><span class="tag">REST API</span></div>
       </article>
 
       <article class="proj">
         <div class="proj-top">
           <span class="proj-idx">P-02</span>
-          <svg class="proj-glyph" viewBox="0 0 40 40" fill="none" stroke="#A855F7" stroke-width="2" aria-hidden="true">
+          <svg class="proj-glyph" viewBox="0 0 40 40" fill="none" stroke="#06B6D4" stroke-width="2" aria-hidden="true">
             <rect x="6" y="22" width="5" height="12" rx="1"/><rect x="14" y="14" width="5" height="20" rx="1"/>
             <rect x="22" y="18" width="5" height="16" rx="1"/><rect x="30" y="9" width="5" height="25" rx="1"/>
           </svg>
         </div>
-        <h3>YouTube Big Data Pipeline</h3>
-        <p>A distributed Big Data pipeline processing 575 multilingual records in parallel. VADER sentiment analysis and TF-IDF keyword extraction on unstructured text, with an interactive Plotly time-series of engagement trends.</p>
+        <h3>YouTube Trends · Big Data Pipeline</h3>
+        <p>Processed 575 multilingual records through a distributed pipeline. Applied VADER for sentiment scoring and TF-IDF for topic extraction, then visualized engagement patterns over time with interactive Plotly charts — unstructured text made legible.</p>
         <div class="tags"><span class="tag">Big Data</span><span class="tag">VADER</span><span class="tag">TF-IDF</span><span class="tag">Plotly</span></div>
       </article>
 
       <article class="proj">
         <div class="proj-top">
           <span class="proj-idx">P-03</span>
-          <svg class="proj-glyph" viewBox="0 0 40 40" fill="none" stroke="#F472B6" stroke-width="2" aria-hidden="true">
+          <svg class="proj-glyph" viewBox="0 0 40 40" fill="none" stroke="#34D399" stroke-width="2" aria-hidden="true">
             <circle cx="13" cy="13" r="3.2"/><circle cx="27" cy="13" r="3.2"/><circle cx="13" cy="27" r="3.2"/><circle cx="27" cy="27" r="3.2"/>
             <line x1="16.2" y1="13" x2="23.8" y2="13" opacity=".3"/><line x1="13" y1="16.2" x2="13" y2="23.8" opacity=".3"/>
             <line x1="15.3" y1="15.3" x2="24.7" y2="24.7"/>
           </svg>
         </div>
-        <h3>Education Investment in Tunisia (2000–2022)</h3>
-        <p>Three OLS regression models on World Bank macroeconomic data. Detected a structural break around the 2011 revolution using Welch, Levene, and Cohen's d tests, plus a Pearson correlation matrix across 10 indicator pairs.</p>
+        <h3>Tunisia Education Spend · Econometric Study</h3>
+        <p>Modeled two decades of public education investment using World Bank indicators. Three OLS regressions, a Pearson correlation across 10 variable pairs, and structural break testing that pinpointed the 2011 revolution as a measurable turning point.</p>
         <div class="tags"><span class="tag">Econometrics</span><span class="tag">OLS</span><span class="tag">Statistics</span><span class="tag">World Bank</span></div>
       </article>
 
@@ -519,26 +614,118 @@
 <!-- ============ SKILLS ============ -->
 <section class="section" id="skills">
   <div class="wrap">
-    <div class="section-head reveal">
-      <p class="eyebrow">Skills</p>
-      <h2 class="h2">The toolkit.</h2>
+    <div class="section-head reveal" style="max-width:100%;text-align:center;">
+      <p class="eyebrow" style="justify-content:center;">Skills</p>
+      <h2 class="h2">What I reach for <span class="grad-text">when I build.</span></h2>
     </div>
-    <div class="skills-grid reveal">
-      <div class="skill-cat"><p class="skill-label">Languages</p><div class="chips">
-        <span class="chip">Java</span><span class="chip">Python</span><span class="chip">C</span><span class="chip">JavaScript</span><span class="chip">HTML/CSS</span><span class="chip">SQL</span><span class="chip">Bash</span>
-      </div></div>
-      <div class="skill-cat"><p class="skill-label">Frameworks &amp; Tools</p><div class="chips">
-        <span class="chip">Spring Boot</span><span class="chip">J2EE</span><span class="chip">Node.js</span><span class="chip">Docker</span><span class="chip">Git</span><span class="chip">Postman</span><span class="chip">Linux</span>
-      </div></div>
-      <div class="skill-cat"><p class="skill-label">Databases</p><div class="chips">
-        <span class="chip">MySQL</span><span class="chip">PostgreSQL</span><span class="chip">MongoDB</span>
-      </div></div>
-      <div class="skill-cat"><p class="skill-label">Methods</p><div class="chips">
-        <span class="chip">Agile/Scrum</span><span class="chip">Layered Architecture</span><span class="chip">OOP</span><span class="chip">API Testing</span><span class="chip">ISTQB</span>
-      </div></div>
-      <div class="skill-cat"><p class="skill-label">Design</p><div class="chips">
-        <span class="chip">Figma</span><span class="chip">Illustrator</span><span class="chip">Canva</span>
-      </div></div>
+    <p class="skills-tagline reveal">Picked up across classrooms, internships, and side projects — plus a fair amount of documentation reading 🛠️</p>
+    <div class="skill-icons-grid reveal">
+      <div class="skill-icon-card"><img src="https://skillicons.dev/icons?i=python" alt="Python"><span>Python</span></div>
+      <div class="skill-icon-card"><img src="https://skillicons.dev/icons?i=java" alt="Java"><span>Java</span></div>
+      <div class="skill-icon-card"><img src="https://skillicons.dev/icons?i=c" alt="C"><span>C</span></div>
+      <div class="skill-icon-card"><img src="https://skillicons.dev/icons?i=js" alt="JavaScript"><span>JavaScript</span></div>
+      <div class="skill-icon-card"><img src="https://skillicons.dev/icons?i=html" alt="HTML"><span>HTML</span></div>
+      <div class="skill-icon-card"><img src="https://skillicons.dev/icons?i=css" alt="CSS"><span>CSS</span></div>
+      <div class="skill-icon-card"><img src="https://skillicons.dev/icons?i=bash" alt="Bash"><span>Bash</span></div>
+      <div class="skill-icon-card"><img src="https://skillicons.dev/icons?i=spring" alt="Spring Boot"><span>Spring Boot</span></div>
+      <div class="skill-icon-card"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js"><span>Node.js</span></div>
+      <div class="skill-icon-card"><img src="https://skillicons.dev/icons?i=docker" alt="Docker"><span>Docker</span></div>
+      <div class="skill-icon-card"><img src="https://skillicons.dev/icons?i=git" alt="Git"><span>Git</span></div>
+      <div class="skill-icon-card"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"><span>GitHub</span></div>
+      <div class="skill-icon-card"><img src="https://skillicons.dev/icons?i=postman" alt="Postman"><span>Postman</span></div>
+      <div class="skill-icon-card"><img src="https://skillicons.dev/icons?i=linux" alt="Linux"><span>Linux</span></div>
+      <div class="skill-icon-card"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL"><span>MySQL</span></div>
+      <div class="skill-icon-card"><img src="https://skillicons.dev/icons?i=postgresql" alt="PostgreSQL"><span>PostgreSQL</span></div>
+      <div class="skill-icon-card"><img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB"><span>MongoDB</span></div>
+      <div class="skill-icon-card"><img src="https://skillicons.dev/icons?i=sklearn" alt="scikit-learn"><span>scikit-learn</span></div>
+      <div class="skill-icon-card"><img src="https://skillicons.dev/icons?i=figma" alt="Figma"><span>Figma</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GITHUB ============ -->
+<section class="section" id="github">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">GitHub</p>
+      <h2 class="h2">My code lives <span class="grad-text">in the open.</span></h2>
+    </div>
+    <div class="gh-repos reveal">
+      <div class="gh-repo">
+        <h4>Diabetes Progression · ML Pipeline</h4>
+        <p>End-to-end ML pipeline on clinical data, containerized with Docker and exposed through a REST API — built to actually deploy, not just demo.</p>
+        <div class="gh-repo-foot">
+          <span><span class="gh-lang-dot" style="background:#3572A5"></span>Python</span>
+          <span><svg viewBox="0 0 16 16" fill="currentColor" width="14" height="14"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/></svg> 0</span>
+        </div>
+      </div>
+      <div class="gh-repo">
+        <h4>YouTube Trends · Big Data Pipeline</h4>
+        <p>Distributed pipeline across 575 multilingual records. VADER sentiment, TF-IDF keyword extraction, and Plotly engagement charts — making messy text data readable.</p>
+        <div class="gh-repo-foot">
+          <span><span class="gh-lang-dot" style="background:#3572A5"></span>Python</span>
+          <span><svg viewBox="0 0 16 16" fill="currentColor" width="14" height="14"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/></svg> 0</span>
+        </div>
+      </div>
+      <div class="gh-repo">
+        <h4>Tunisia Education Spend · OLS Study</h4>
+        <p>Three OLS models on World Bank macroeconomic data. Structural break testing pinpointed the 2011 revolution as a statistically significant shift in education investment.</p>
+        <div class="gh-repo-foot">
+          <span><span class="gh-lang-dot" style="background:#e34c26"></span>Jupyter</span>
+          <span><svg viewBox="0 0 16 16" fill="currentColor" width="14" height="14"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/></svg> 0</span>
+        </div>
+      </div>
+    </div>
+    <div class="gh-profile reveal">
+      <div class="gh-avatar">NG</div>
+      <div class="gh-info">
+        <h4>Nour Gouja</h4>
+        <p>CS student at ISAMM · Building with Java, Python & data</p>
+        <div class="gh-meta">
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Followers</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h7v7H3z"/><path d="M14 3h7v7h-7z"/><path d="M14 14h7v7h-7z"/><path d="M3 14h7v7H3z"/></svg> Repos</span>
+        </div>
+      </div>
+      <!-- Replace # with your actual GitHub profile URL -->
+      <a class="btn-gh" href="https://github.com/nourgouja" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.3-3.2-.1-.3-.6-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17 4.7 18 5 18 5c.7 1.7.2 2.9.1 3.2.8.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5Z"/></svg>
+        View Profile
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CERTIFICATIONS ============ -->
+<section class="section" id="certifications">
+  <div class="wrap">
+    <div class="section-head reveal" style="max-width:100%;text-align:center;">
+      <p class="eyebrow" style="justify-content:center;">Certifications</p>
+      <h2 class="h2">Learning beyond <span class="grad-text">the curriculum.</span></h2>
+    </div>
+    <p class="cert-tagline reveal">A diploma shows where I studied — these show what I chose to learn on top of it 📜</p>
+    <div class="cert-scroll reveal">
+      <!-- Hashgraph Developer Certificate — links to the PDF file -->
+      <a class="cert-card" href="./hashgraph-certificate.pdf" target="_blank" rel="noopener">
+        <div class="cert-card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+        </div>
+        <h4>Hashgraph Developer Course</h4>
+        <p class="cert-issuer">Hedera Hashgraph</p>
+        <span class="cert-date">2025</span>
+        <span class="cert-view">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="13" height="13"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          View certificate
+        </span>
+      </a>
+      <!-- IELTS Certificate -->
+      <div class="cert-card">
+        <div class="cert-card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><line x1="9" y1="10" x2="15" y2="10"/><line x1="9" y1="14" x2="13" y2="14"/></svg>
+        </div>
+        <h4>IELTS — C1 English Proficiency</h4>
+        <p class="cert-issuer">British Council · IDP · Cambridge</p>
+        <span class="cert-date">2025</span>
+      </div>
     </div>
   </div>
 </section>
@@ -548,24 +735,38 @@
   <div class="wrap">
     <div class="section-head reveal">
       <p class="eyebrow">Education</p>
-      <h2 class="h2">Background.</h2>
+      <h2 class="h2">Where I built <span class="grad-text">the foundation.</span></h2>
     </div>
-    <div class="edu-grid reveal">
-      <div class="edu">
-        <div class="edu-head"><h4>B.Sc. Computer Science — Multimedia</h4><span class="edu-date">2023 — 2026</span></div>
-        <p class="edu-school">Institut Supérieur des Arts du Multimédia (ISAMM), Manouba</p>
-        <span class="pill">Highest Honors · Mention Très Bien</span>
+    <div class="edu-timeline reveal">
+      <div class="edu-card">
+        <div class="edu-card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.657 2.686 3 6 3s6-1.343 6-3v-5"/></svg>
+        </div>
+        <div class="edu-card-body">
+          <h4>B.Sc. Computer Science — Multimedia</h4>
+          <p class="edu-card-school">Institut Supérieur des Arts du Multimédia (ISAMM), Manouba</p>
+          <div class="edu-card-meta">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Sept 2023 — June 2026</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>Highest Honors · Mention Très Bien</span>
+          </div>
+        </div>
       </div>
-      <div class="edu">
-        <div class="edu-head"><h4>Scientific Baccalaureate</h4><span class="edu-date">2022 — 2023</span></div>
-        <p class="edu-school">Lycée Mohamed Attia de Khaznadar, Bardo · Experimental Sciences</p>
-        <span class="pill">Honors · Mention Bien</span>
+      <div class="edu-connector"></div>
+      <div class="edu-card">
+        <div class="edu-card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.657 2.686 3 6 3s6-1.343 6-3v-5"/></svg>
+        </div>
+        <div class="edu-card-body">
+          <h4>Scientific Baccalaureate — Experimental Sciences</h4>
+          <p class="edu-card-school">Lycée Mohamed Attia de Khaznadar, Bardo</p>
+          <div class="edu-card-meta">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>2022 — 2023</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>Honors · Mention Bien</span>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="meta-grid reveal">
-      <div class="meta-row"><p class="meta-label">Languages</p><p>Arabic (native) · French (fluent) · English (professional)</p></div>
-      <div class="meta-row"><p class="meta-label">Interests</p><p>Technology · Creativity · Cinema · Literature · Digital Arts · Music</p></div>
-    </div>
+  
   </div>
 </section>
 
@@ -574,8 +775,8 @@
   <div class="wrap">
     <div class="reveal">
       <p class="eyebrow">Contact</p>
-      <h2 class="contact-h">Let's build something.</h2>
-      <p>Open to engineering roles, research collaborations, and projects at the crossroads of software, data, and health.</p>
+      <h2 class="contact-h">Got something in mind?</h2>
+      <p>Whether it's a role, a collab, or a question about something I've built — my inbox is open.</p>
       <a class="mail-link" href="mailto:goujanour7@gmail.com">goujanour7@gmail.com</a>
     </div>
   </div>
@@ -585,10 +786,10 @@
 
 <footer>
   <div class="wrap foot-inner">
-    <span>© 2026 Nour Gouja — Designed &amp; built in Tunis</span>
+    <span>© 2026 Nour Gouja — Made with curiosity in Tunis</span>
     <div class="foot-links">
       <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/nour-gouja-a435b52a5" target="_blank" rel="noopener">LinkedIn</a>
       <a href="mailto:goujanour7@gmail.com">Email</a>
     </div>
   </div>
@@ -626,7 +827,7 @@
   onScroll();
 
   /* Typewriter */
-  var roles = ["Full-Stack Developer","Data Scientist","ML & Data Enthusiast","Software Engineering Student"];
+  var roles = ["CS Student & Developer","Full-Stack Engineer","Data Science Enthusiast","ML Pipeline Builder"];
   var typed = document.getElementById('typed');
   if(reduce){
     typed.textContent = roles[0];
