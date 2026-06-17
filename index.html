@@ -229,8 +229,14 @@
   .proj-glyph{width:34px;height:34px;}
   .proj h3{font-family:var(--display);font-weight:600;font-size:1.25rem;line-height:1.25;margin:0 0 12px;color:var(--text);}
   .proj p{font-size:.95rem;color:var(--text-2);line-height:1.55;margin:0 0 20px;flex:1;}
+  .proj-link{display:inline-flex;align-items:center;gap:5px;margin-top:16px;font-family:var(--mono);font-size:.78rem;font-weight:600;color:var(--accent);text-decoration:none;border:1px solid rgba(45,212,191,.25);border-radius:8px;padding:6px 14px;transition:all .2s;}
+  .proj-link:hover{background:rgba(45,212,191,.08);border-color:var(--accent);}
   .tags{display:flex;flex-wrap:wrap;gap:7px;}
   .tag{font-family:var(--mono);font-size:.72rem;color:var(--text-2);background:var(--surface-2);border:1px solid var(--border);border-radius:7px;padding:5px 10px;}
+  .wip-badge{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:.7rem;font-weight:600;
+    color:#F59E0B;background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.3);border-radius:999px;padding:4px 10px;margin-bottom:14px;}
+  .wip-dot{width:6px;height:6px;border-radius:50%;background:#F59E0B;animation:blink 1.4s steps(1) infinite;}
+  .proj.wip{border-style:dashed;opacity:.88;}
 
   /* skills icon grid */
   .skills-tagline{text-align:center;color:var(--text-2);font-size:1.02rem;margin:-16px 0 36px;}
@@ -591,6 +597,37 @@
         <h3>YouTube Trends · Big Data Pipeline</h3>
         <p>Processed 575 multilingual records through a distributed pipeline. Applied VADER for sentiment scoring and TF-IDF for topic extraction, then visualized engagement patterns over time with interactive Plotly charts — unstructured text made legible.</p>
         <div class="tags"><span class="tag">Big Data</span><span class="tag">VADER</span><span class="tag">TF-IDF</span><span class="tag">Plotly</span></div>
+      </article>
+
+      <article class="proj">
+        <div class="proj-top">
+          <span class="proj-idx">P-04</span>
+          <svg class="proj-glyph" viewBox="0 0 40 40" fill="none" stroke="#2DD4BF" stroke-width="2" aria-hidden="true">
+            <circle cx="10" cy="20" r="3"/><circle cx="30" cy="10" r="3"/><circle cx="30" cy="30" r="3"/><circle cx="20" cy="20" r="3"/>
+            <line x1="13" y1="20" x2="17" y2="20"/><line x1="23" y1="20" x2="27" y2="12"/><line x1="23" y1="20" x2="27" y2="28"/>
+            <path d="M10 10 L10 6 M30 4 L30 2" stroke-linecap="round" opacity=".4"/>
+          </svg>
+        </div>
+        <h3>Algorithm Visualizer · Interactive Tool</h3>
+        <p>A browser-based visualizer for sorting and pathfinding algorithms — built entirely from scratch in vanilla JS. Five sorting algorithms with real-time bar animation, four pathfinding algorithms on a draggable grid, and iterative maze generation. No libraries, no canvas — just DOM, CSS, and async/await.</p>
+        <div class="tags"><span class="tag">JavaScript</span><span class="tag">Algorithms</span><span class="tag">CSS Animations</span><span class="tag">BFS</span><span class="tag">A*</span></div>
+        <a class="proj-link" href="../algo-visualizer/" target="_blank" rel="noopener">Live demo →</a>
+      </article>
+
+      <article class="proj wip">
+        <div class="proj-top">
+          <span class="proj-idx">P-05</span>
+          <svg class="proj-glyph" viewBox="0 0 40 40" fill="none" stroke="#F59E0B" stroke-width="2" aria-hidden="true">
+            <rect x="5" y="8" width="30" height="24" rx="3"/>
+            <path d="M13 8V5M27 8V5"/>
+            <line x1="5" y1="16" x2="35" y2="16" opacity=".4"/>
+            <circle cx="14" cy="24" r="2.5"/><circle cx="26" cy="24" r="2.5"/>
+          </svg>
+        </div>
+        <span class="wip-badge"><span class="wip-dot"></span>In progress</span>
+        <h3>Clinic Appointment System · Full-Stack</h3>
+        <p>A full-stack appointment management platform for small clinics — patients book slots, doctors manage schedules, admins oversee the flow. Spring Boot REST API with JWT auth, React frontend, PostgreSQL, and Docker Compose. Built to be live and usable, not just a demo.</p>
+        <div class="tags"><span class="tag">Spring Boot</span><span class="tag">React</span><span class="tag">PostgreSQL</span><span class="tag">Docker</span><span class="tag">JWT</span></div>
       </article>
 
       <article class="proj">
